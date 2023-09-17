@@ -1,4 +1,4 @@
-pyminor
+pystob
 ssl
 requests
 hashlib
